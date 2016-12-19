@@ -18,7 +18,7 @@ app.use(middleware.logger);
 //app.use(middleware.requireAuthentication);
 app.get('/about',middleware.requireAuthentication,function(req,res){
 
-	res.send("about us!FUCK YOU");
+	res.send("about us!FUCK YOU!!!");
 });
 
 app.use(express.static(__dirname+"/public"));
